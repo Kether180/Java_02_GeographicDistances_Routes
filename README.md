@@ -1,4 +1,4 @@
-                                        Java Praktikum Lab 02 _Geographic Distances Routes
+                                        Java Praktikum Lab 02 Geographic Distances Routes
 
 1.1 Geographic Distances
 
