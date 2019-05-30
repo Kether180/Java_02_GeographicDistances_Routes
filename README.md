@@ -1,7 +1,5 @@
 # Java_02_GeographicDistances_Routes
 
-Java_02 Geographic Distances (Routes)
-
 1.1 Geographic Distances
 
 The classes and interfaces do have the following purpose:
@@ -11,8 +9,6 @@ The classes and interfaces do have the following purpose:
 ▪ RouteData creates some routes to save typing work.
 ▪ The interface Distance allows to query a length.
 ▪ The interface Comparable is known from the lecture and provided by Java.
-
-
 
 2.1 Functionality
 
