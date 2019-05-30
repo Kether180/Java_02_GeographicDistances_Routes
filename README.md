@@ -2,7 +2,7 @@
 
 Java_02 Geographic Distances (Routes)
 
-2 Geographic Distances
+1.1 Geographic Distances
 
 The classes and interfaces do have the following purpose:
 ▪ GeoPosition represents a location. Use the class created in lab exercise 1.
@@ -14,15 +14,15 @@ The classes and interfaces do have the following purpose:
 
 
 
-3 Functionality
+2.1 Functionality
 
-3.1 Interface Distance
+2.2 Interface Distance
 ▪ Requirement 1 The interface declares an abstract method getDistance() to return a distance.
 Declaration:
 
           ▪ double getDistance()
 
-3.2 Class GeoRoute
+3.1 Class GeoRoute
 ▪ Requirement 2 A route has a name and an organized list of way points.
 
 ▪ Requirement 3 The class has two constructors, one to which the name is passed and another one to which the name as well as a list of way points is passed.
@@ -62,7 +62,7 @@ Declaration:
 ▪ public String toString()
   
   
-  3.3 Class GeoTrack
+  3.2 Class GeoTrack
 Requirement 13 The class extends the class GeoRoute by the date on which the represented route was covered. The date is stored as string having the format yyyy-mm-dd with year y, month m and day d.
 Requirement 14 Exactly one constructor is existing to which the name of the route and the date are passed.
 Requirement 15 The date can be received by using a getter and be assigned a new value by using a setter.
@@ -72,10 +72,10 @@ Declarations:
 ▪ public String getDate()
 ▪ public void setDate(String date)
 
-3.4 Unit-Tests
+3.2 Unit-Tests
 Requirement 16 Ensure that all given Unit-tests are executed properly.
 
-4 HAW-Running Group
+4.1 HAW-Running Group
 You want to start a HAW running group. The following three routes are available: from the HAW around the Binnenalster or the Außenalster and back or around the city park.
 
 Create an executable class to estimate the lengths of these routes. The class RouteData contains methods that generate routes around the Binnenalster or Außenalster. You still must create the route around the city park. Coordinates of the waypoints can be obtained, for example, by clicking on the corresponding positions in Google Maps. Choose as the starting point the connection of the Ohlsdorfer Straße to the Jahnkampfbahn and add some coordinates, which lead you in the largest possible round around the city park and back to the starting point. Transfer the length of the routes to the table below.
@@ -87,6 +87,6 @@ Create an executable class to estimate the lengths of these routes. The class Ro
         City Park
 
 
-5 Flight Routes
+5.1 Flight Routes
 
 The method createFlightRoutes() of the class RouteData creates a list of different flight routes. Create an executable class that sorts the list in ascending order of the length of the flight routes and then outputs the routes and route names. (Please note: A list of type ArrayList list can be sorted using the class method Collections.sort().)
